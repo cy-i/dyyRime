@@ -4,648 +4,649 @@ version: "0.2"
 columns:
   - text
   - code
+  - stem
 ...
-工	a
-了	b
-以	c
-在	d
-有	e
-地	f
-一	g
-上	h
-不	i
-是	j
-中	k
-国	l
-同	m
-民	n
-为	o
-这	p
-我	q
-的	r
-要	s
-和	t
-产	u
-发	v
-人	w
-经	x
-主	y
-式	aa
-节	ab
-芭	ac
-基	ad
-菜	ae
-革	af
-七	ag
-牙	ah
-东	ai
-划	aj
-或	ak
-功	al
-贡	am
-世	an
-蒌	ao
-芝	ap
-区	aq
-匠	ar
-苛	as
-攻	at
-燕	au
-切	av
-共	aw
-药	ax
-芳	ay
-陈	ba
-子	bb
-取	bc
-承	bd
-阴	be
-际	bf
-卫	bg
-耻	bh
-孙	bi
-阳	bj
-职	bk
-阵	bl
-出	bm
-也	bn
-耿	bo
-辽	bp
-隐	bq
-孤	br
-阿	bs
-降	bt
-联	bu
-限	bv
-队	bw
-陛	bx
-防	by
-戏	ca
-邓	cb
-双	cc
-参	cd
-能	ce
-对	cf
-骊	cg
-骒	cj
-台	ck
-劝	cl
-观	cm
-马	cn
-驼	cp
-允	cq
-牟	cr
-骠	cs
-矣	ct
-骈	cu
-艰	cv
-难	cw
-驻	cy
-左	da
-顾	db
-友	dc
-大	dd
-胡	de
-夺	df
-三	dg
-丰	dh
-砂	di
-百	dj
-右	dk
-历	dl
-面	dm
-成	dn
-灰	do
-达	dp
-克	dq
-原	dr
-厅	ds
-帮	dt
-磁	du
-肆	dv
-春	dw
-龙	dx
-太	dy
-肛	ea
-服	eb
-肥	ec
-须	ed
-朋	ee
-肝	ef
-且	eg
-鼐	eh
-膛	ei
-胆	ej
-肿	ek
-肋	el
-肌	em
-甩	en
-膦	eo
-爱	ep
-胸	eq
-遥	er
-采	es
-用	et
-胶	eu
-妥	ev
-脸	ew
-脂	ex
-及	ey
-载	fa
-地	fb
-去	fc
-城	fd
-圾	fe
-寺	ff
-二	fg
-直	fh
-示	fi
-进	fj
-吉	fk
-协	fl
-南	fm
-志	fn
-赤	fo
-过	fp
-无	fq
-垢	fr
-霜	fs
-才	ft
-增	fu
-雪	fv
-夫	fw
-坳	fx
-坟	fy
-开	ga
-屯	gb
-到	gc
-天	gd
-表	ge
-于	gf
-五	gg
-下	gh
-不	gi
-理	gj
-事	gk
-画	gl
-现	gm
-与	gn
-来	go
-列	gq
-珠	gr
-末	gs
-玫	gt
-平	gu
-妻	gv
-珍	gw
-互	gx
-玉	gy
-虎	ha
-齰	hb
-皮	hc
-睚	hd
-肯	he
-睦	hf
-睛	hg
-止	hh
-步	hi
-旧	hj
-占	hk
-卤	hl
-贞	hm
-卢	hn
-眯	ho
-瞎	hp
-餐	hq
-睥	hr
-盯	hs
-睡	ht
-瞳	hu
-眼	hv
-具	hw
-此	hx
-眩	hy
-江	ia
-池	ib
-汉	ic
-尖	id
-肖	ie
-法	if
-汪	ig
-小	ih
-水	ii
-浊	ij
-澡	ik
-渐	il
-没	im
-沁	in
-淡	io
-学	ip
-光	iq
-泊	ir
-洒	is
-少	it
-洋	iu
-当	iv
-兴	iw
-涨	ix
-注	iy
-虹	ja
-最	jb
-紧	jc
-晨	jd
-明	je
-时	jf
-量	jg
-早	jh
-晃	ji
-昌	jj
-蝇	jk
-曙	jl
-遇	jm
-电	jn
-显	jo
-晕	jp
-晚	jq
-蝗	jr
-果	js
-昨	jt
-暗	ju
-归	jv
-蛤	jw
-昆	jx
-景	jy
-呀	ka
-啊	kb
-吧	kc
-顺	kd
-吸	ke
-叶	kf
-呈	kg
-中	kh
-吵	ki
-虽	kj
-吕	kk
-另	kl
-员	km
-叫	kn
-咪	ko
-喧	kp
-史	kq
-听	kr
-呆	ks
-呼	kt
-啼	ku
-哪	kv
-只	kw
-哟	kx
-嘛	ky
-轼	la
-囝	lb
-轻	lc
-因	ld
-胃	le
-轩	lf
-车	lg
-四	lh
-辊	lj
-加	lk
-男	ll
-轴	lm
-思	ln
-辚	lo
-边	lp
-罗	lq
-斩	lr
-困	ls
-力	lt
-较	lu
-轨	lv
-办	lw
-累	lx
-罚	ly
-曲	ma
-邮	mb
-凤	mc
-央	md
-骨	me
-财	mf
-同	mg
-由	mh
-峭	mi
-则	mj
-迥	mk
-崭	ml
-册	mm
-岂	mn
-嶙	mo
-迪	mp
-风	mq
-贩	mr
-朵	ms
-几	mt
-赠	mu
-内	mw
-嶷	mx
-凡	my
-民	na
-敢	nb
-怪	nc
-居	nd
-导	nf
-怀	ng
-收	nh
-悄	ni
-慢	nj
-避	nk
-惭	nl
-届	nm
-忆	nn
-屡	no
-忱	np
-懈	nq
-怕	nr
-怵	ns
-必	nt
-习	nu
-恨	nv
-愉	nw
-尼	nx
-心	ny
-煤	oa
-籽	ob
-烃	oc
-类	od
-粗	oe
-灶	of
-业	og
-粘	oh
-炒	oi
-烛	oj
-炽	ok
-烟	ol
-灿	om
-断	on
-炎	oo
-迷	op
-炮	oq
-煌	or
-灯	os
-烽	ot
-料	ou
-娄	ov
-粉	ow
-糨	ox
-米	oy
-宽	pa
-字	pb
-害	pd
-家	pe
-守	pf
-定	pg
-寂	ph
-宵	pi
-审	pj
-宫	pk
-军	pl
-宙	pm
-官	pn
-灾	po
-之	pp
-宛	pq
-宾	pr
-宁	ps
-客	pt
-实	pu
-安	pv
-空	pw
-它	px
-社	py
-氏	qa
-凶	qb
-色	qc
-然	qd
-角	qe
-针	qf
-钱	qg
-外	qh
-乐	qi
-旬	qj
-名	qk
-甸	ql
-负	qm
-包	qn
-炙	qo
-锭	qp
-多	qq
-铁	qr
-钉	qs
-儿	qt
-匀	qu
-争	qv
-欠	qw
-镪	qx
-久	qy
-找	ra
-报	rb
-反	rc
-拓	rd
-扔	re
-持	rf
-后	rg
-年	rh
-朱	ri
-提	rj
-扣	rk
-押	rl
-抽	rm
-所	rn
-搂	ro
-近	rp
-换	rq
-折	rr
-打	rs
-手	rt
-拉	ru
-扫	rv
-失	rw
-批	rx
-扩	ry
-械	sa
-李	sb
-权	sc
-枯	sd
-极	se
-村	sf
-本	sg
-相	sh
-档	si
-查	sj
-可	sk
-楞	sl
-机	sm
-杨	sn
-杰	so
-棕	sp
-构	sq
-析	sr
-林	ss
-格	st
-样	su
-要	sv
-检	sw
-楷	sx
-术	sy
-长	ta
-季	tb
-么	tc
-知	td
-秀	te
-行	tf
-生	tg
-处	th
-秒	ti
-得	tj
-各	tk
-务	tl
-向	tm
-秘	tn
-秋	to
-管	tp
-称	tq
-物	tr
-条	ts
-笔	tt
-科	tu
-委	tv
-答	tw
-第	tx
-入	ty
-并	ua
-闻	ub
-冯	uc
-关	ud
-前	ue
-半	uf
-闰	ug
-站	uh
-冰	ui
-间	uj
-部	uk
-曾	ul
-商	um
-决	un
-普	uo
-帝	up
-交	uq
-瓣	ur
-亲	us
-产	ut
-立	uu
-妆	uv
-闪	uw
-北	ux
-六	uy
-毁	va
-好	vb
-妈	vc
-姑	vd
-奶	ve
-寻	vf
-姨	vg
-叟	vh
-录	vi
-旭	vj
-如	vk
-舅	vl
-妯	vm
-刀	vn
-灵	vo
-巡	vp
-婚	vq
-姝	vr
-杂	vs
-九	vt
-嫌	vu
-妇	vv
-臾	vw
-姆	vx
-妨	vy
-代	wa
-他	wb
-公	wc
-估	wd
-仍	we
-会	wf
-全	wg
-个	wh
-偿	wi
-介	wj
-保	wk
-佃	wl
-仙	wm
-亿	wn
-伙	wo
-侬	wp
-你	wq
-伯	wr
-休	ws
-作	wt
-们	wu
-分	wv
-从	ww
-化	wx
-信	wy
-红	xa
-弛	xb
-经	xc
-顷	xd
-级	xe
-结	xf
-线	xg
-引	xh
-纱	xi
-旨	xj
-强	xk
-细	xl
-纲	xm
-纪	xn
-继	xo
-综	xp
-约	xq
-绵	xr
-缥	xs
-张	xt
-弱	xu
-绿	xv
-给	xw
-比	xx
-纺	xy
-度	ya
-离	yb
-充	yc
-庆	yd
-衣	ye
-计	yf
-主	yg
-让	yh
-就	yi
-刘	yj
-训	yk
-为	yl
-高	ym
-记	yn
-变	yo
-这	yp
-义	yq
-诉	yr
-订	ys
-放	yt
-说	yu
-良	yv
-认	yw
-率	yx
-方	yy
+工	a	aaaa
+了	b	bnh
+以	c	nywy
+在	d	dhfd
+有	e	def
+地	f	fbn
+一	g	ggll
+上	h	hhgg
+不	i	gii
+是	j	jghu
+中	k	khk
+国	l	lgyi
+同	m	mgkd
+民	n	nav
+为	o	ylyi
+这	p	ypi
+我	q	trnt
+的	r	rqyy
+要	s	svf
+和	t	tkg
+产	u	ute
+发	v	ntcy
+人	w	wwww
+经	x	xcag
+主	y	ygd
+式	aa	aad
+节	ab	abj
+芭	ac	acb
+基	ad	adwf
+菜	ae	aesu
+革	af	afj
+七	ag	agn
+牙	ah	ahte
+东	ai	aii
+划	aj	ajh
+或	ak	akgd
+功	al	aln
+贡	am	amu
+世	an	anv
+蒌	ao	aovf
+芝	ap	apu
+区	aq	aqi
+匠	ar	ark
+苛	as	askf
+攻	at	aty
+燕	au	auko
+切	av	avn
+共	aw	awu
+药	ax	axqy
+芳	ay	ayb
+陈	ba	baiy
+子	bb	bbbb
+取	bc	bcy
+承	bd	bdii
+阴	be	beg
+际	bf	bfiy
+卫	bg	bgd
+耻	bh	bhg
+孙	bi	biy
+阳	bj	bjg
+职	bk	bkwy
+阵	bl	blh
+出	bm	bmk
+也	bn	bnhn
+耿	bo	boy
+辽	bp	bpk
+隐	bq	bqvn
+孤	br	brcy
+阿	bs	bskg
+降	bt	btah
+联	bu	budy
+限	bv	bvey
+队	bw	bwy
+陛	bx	bxxf
+防	by	byn
+戏	ca	cat
+邓	cb	cbh
+双	cc	ccy
+参	cd	cder
+能	ce	cexx
+对	cf	cfy
+骊	cg	cgmy
+骒	cj	cjsy
+台	ck	ckf
+劝	cl	cln
+观	cm	cmqn
+马	cn	cnng
+驼	cp	cpxn
+允	cq	cqb
+牟	cr	crhj
+骠	cs	csfi
+矣	ct	ctdu
+骈	cu	cuah
+艰	cv	cvey
+难	cw	cwyg
+驻	cy	cygg
+左	da	daf
+顾	db	dbdm
+友	dc	dcu
+大	dd	dddd
+胡	de	deg
+夺	df	dfu
+三	dg	dggg
+丰	dh	dhk
+砂	di	ditt
+百	dj	djf
+右	dk	dkf
+历	dl	dlv
+面	dm	dmjd
+成	dn	dnnt
+灰	do	dou
+达	dp	dpi
+克	dq	dqb
+原	dr	drii
+厅	ds	dsk
+帮	dt	dtbh
+磁	du	duxx
+肆	dv	dvfh
+春	dw	dwjf
+龙	dx	dxv
+太	dy	dyi
+肛	ea	eag
+服	eb	ebcy
+肥	ec	ecn
+须	ed	edmy
+朋	ee	eeg
+肝	ef	efh
+且	eg	egd
+鼐	eh	ehnn
+膛	ei	eipf
+胆	ej	ejgg
+肿	ek	ekhh
+肋	el	eln
+肌	em	emn
+甩	en	env
+膦	eo	eoqh
+爱	ep	epdc
+胸	eq	eqqb
+遥	er	ermp
+采	es	esu
+用	et	etnh
+胶	eu	euqy
+妥	ev	evf
+脸	ew	ewgi
+脂	ex	exjg
+及	ey	eyi
+载	fa	falk
+地	fb	fbn
+去	fc	fc
+城	fd	fdnt
+圾	fe	feyy
+寺	ff	ffu
+二	fg	fgg
+直	fh	fhf
+示	fi	fiu
+进	fj	fjpk
+吉	fk	fkf
+协	fl	flwy
+南	fm	fmuf
+志	fn	fnu
+赤	fo	fou
+过	fp	fpi
+无	fq	fqv
+垢	fr	frgk
+霜	fs	fshf
+才	ft	fte
+增	fu	fulj
+雪	fv	fvf
+夫	fw	fwi
+坳	fx	fxln
+坟	fy	fyy
+开	ga	gak
+屯	gb	gbnv
+到	gc	gcfj
+天	gd	gdi
+表	ge	geu
+于	gf	gfk
+五	gg	gghg
+下	gh	ghi
+不	gi	gii
+理	gj	gjfg
+事	gk	gkvh
+画	gl	glbj
+现	gm	gmqn
+与	gn	gngd
+来	go	goi
+列	gq	gqjh
+珠	gr	griy
+末	gs	gsi
+玫	gt	gty
+平	gu	guhk
+妻	gv	gvhv
+珍	gw	gwet
+互	gx	gxgd
+玉	gy	gyi
+虎	ha	hamv
+齰	hb	hbaj
+皮	hc	hci
+睚	hd	hdff
+肯	he	hef
+睦	hf	hfwf
+睛	hg	hgeg
+止	hh	hhhg
+步	hi	hir
+旧	hj	hjg
+占	hk	hkf
+卤	hl	hlqi
+贞	hm	hmu
+卢	hn	hne
+眯	ho	hoy
+瞎	hp	hpdk
+餐	hq	hqce
+睥	hr	hrtf
+盯	hs	hsh
+睡	ht	htgf
+瞳	hu	hujf
+眼	hv	hvey
+具	hw	hwu
+此	hx	hxn
+眩	hy	hyxy
+江	ia	iag
+池	ib	ibn
+汉	ic	icy
+尖	id	idu
+肖	ie	ief
+法	if	ifcy
+汪	ig	igg
+小	ih	ihty
+水	ii	iiii
+浊	ij	ijy
+澡	ik	ikks
+渐	il	ilrh
+没	im	imcy
+沁	in	iny
+淡	io	iooy
+学	ip	ipbf
+光	iq	iqb
+泊	ir	irg
+洒	is	isg
+少	it	itr
+洋	iu	iudh
+当	iv	ivf
+兴	iw	iwu
+涨	ix	ixty
+注	iy	iygg
+虹	ja	jag
+最	jb	jbcu
+紧	jc	jcxi
+晨	jd	jdfe
+明	je	jeg
+时	jf	jfy
+量	jg	jgjf
+早	jh	jhnh
+晃	ji	jiqb
+昌	jj	jjf
+蝇	jk	jkjn
+曙	jl	jlfj
+遇	jm	jmhp
+电	jn	jnv
+显	jo	jogf
+晕	jp	jplj
+晚	jq	jqkq
+蝗	jr	jrgg
+果	js	jsi
+昨	jt	jthf
+暗	ju	jujg
+归	jv	jvg
+蛤	jw	jwgk
+昆	jx	jxxb
+景	jy	jyiu
+呀	ka	kaht
+啊	kb	kbsk
+吧	kc	kcn
+顺	kd	kdmy
+吸	ke	keyy
+叶	kf	kfh
+呈	kg	kgf
+中	kh	khk
+吵	ki	kitt
+虽	kj	kju
+吕	kk	kkf
+另	kl	klb
+员	km	kmu
+叫	kn	knhh
+咪	ko	koy
+喧	kp	kpgg
+史	kq	kqi
+听	kr	krh
+呆	ks	ksu
+呼	kt	ktuh
+啼	ku	kuph
+哪	kv	kvfb
+只	kw	kwu
+哟	kx	kxqy
+嘛	ky	kyss
+轼	la	laag
+囝	lb	lbd
+轻	lc	lcag
+因	ld	ldi
+胃	le	lef
+轩	lf	lfh
+车	lg	lgnh
+四	lh	lhng
+辊	lj	ljxx
+加	lk	lkg
+男	ll	llb
+轴	lm	lmg
+思	ln	lnu
+辚	lo	loqh
+边	lp	lpv
+罗	lq	lqu
+斩	lr	lrh
+困	ls	lsi
+力	lt	ltn
+较	lu	luqy
+轨	lv	lvn
+办	lw	lwi
+累	lx	lxiu
+罚	ly	lyjj
+曲	ma	mad
+邮	mb	mbh
+凤	mc	mci
+央	md	mdi
+骨	me	mef
+财	mf	mftt
+同	mg	mgkd
+由	mh	mhng
+峭	mi	mieg
+则	mj	mjh
+迥	mk	mkpd
+崭	ml	mlrj
+册	mm	mmgd
+岂	mn	mnb
+嶙	mo	moqh
+迪	mp	mpd
+风	mq	mqi
+贩	mr	mrcy
+朵	ms	msu
+几	mt	mtn
+赠	mu	mulj
+内	mw	mwi
+嶷	mx	mxth
+凡	my	myi
+民	na	nav
+敢	nb	nbty
+怪	nc	ncfg
+居	nd	ndd
+导	nf	nfu
+怀	ng	ngiy
+收	nh	nhty
+悄	ni	nieg
+慢	nj	njlc
+避	nk	nkup
+惭	nl	nlrh
+届	nm	nmd
+忆	nn	nnn
+屡	no	novd
+忱	np	npqn
+懈	nq	nqeh
+怕	nr	nrg
+怵	ns	nsyy
+必	nt	nte
+习	nu	nud
+恨	nv	nvey
+愉	nw	nwgj
+尼	nx	nxv
+心	ny	nyny
+煤	oa	oafs
+籽	ob	obg
+烃	oc	ocag
+类	od	odu
+粗	oe	oegg
+灶	of	ofg
+业	og	ogd
+粘	oh	ohkg
+炒	oi	oitt
+烛	oj	ojy
+炽	ok	okwy
+烟	ol	oldy
+灿	om	omh
+断	on	onrh
+炎	oo	oou
+迷	op	opi
+炮	oq	oqnn
+煌	or	orgg
+灯	os	osh
+烽	ot	otdh
+料	ou	oufh
+娄	ov	ovf
+粉	ow	owvn
+糨	ox	oxkj
+米	oy	oyty
+宽	pa	pamq
+字	pb	pbf
+害	pd	pdhk
+家	pe	peu
+守	pf	pfu
+定	pg	pghu
+寂	ph	phic
+宵	pi	pief
+审	pj	pjhj
+宫	pk	pkkf
+军	pl	plj
+宙	pm	pmf
+官	pn	pnhn
+灾	po	pou
+之	pp	pppp
+宛	pq	pqbb
+宾	pr	prgw
+宁	ps	psj
+客	pt	ptkf
+实	pu	pudu
+安	pv	pvf
+空	pw	pwaf
+它	px	pxb
+社	py	pyfg
+氏	qa	qav
+凶	qb	qbk
+色	qc	qcb
+然	qd	qdou
+角	qe	qej
+针	qf	qfh
+钱	qg	qgt
+外	qh	qhy
+乐	qi	qii
+旬	qj	qjd
+名	qk	qkf
+甸	ql	qld
+负	qm	qmu
+包	qn	qnv
+炙	qo	qou
+锭	qp	qpgh
+多	qq	qqu
+铁	qr	qrwy
+钉	qs	qsh
+儿	qt	qtn
+匀	qu	qud
+争	qv	qvhj
+欠	qw	qwu
+镪	qx	qxkj
+久	qy	qyi
+找	ra	rat
+报	rb	rbcy
+反	rc	rci
+拓	rd	rdg
+扔	re	ren
+持	rf	rffy
+后	rg	rgkd
+年	rh	rhfk
+朱	ri	rii
+提	rj	rjgh
+扣	rk	rkg
+押	rl	rlh
+抽	rm	rmg
+所	rn	rnrh
+搂	ro	rovg
+近	rp	rpk
+换	rq	rqmd
+折	rr	rrh
+打	rs	rsh
+手	rt	rtgh
+拉	ru	rug
+扫	rv	rvg
+失	rw	rwi
+批	rx	rxxn
+扩	ry	ryt
+械	sa	saah
+李	sb	sbf
+权	sc	scy
+枯	sd	sdg
+极	se	seyy
+村	sf	sfy
+本	sg	sgd
+相	sh	shg
+档	si	sivg
+查	sj	sjgf
+可	sk	skd
+楞	sl	slyn
+机	sm	smn
+杨	sn	snrt
+杰	so	sou
+棕	sp	spfi
+构	sq	sqcy
+析	sr	srh
+林	ss	ssy
+格	st	stkg
+样	su	sudh
+要	sv	svf
+检	sw	swgi
+楷	sx	sxxr
+术	sy	syi
+长	ta	tayi
+季	tb	tbf
+么	tc	tcu
+知	td	tdkg
+秀	te	teb
+行	tf	tfhh
+生	tg	tgd
+处	th	thi
+秒	ti	titt
+得	tj	tjgf
+各	tk	tkf
+务	tl	tlb
+向	tm	tmkd
+秘	tn	tntt
+秋	to	toy
+管	tp	tpnn
+称	tq	tqiy
+物	tr	trqr
+条	ts	tsu
+笔	tt	ttfn
+科	tu	tufh
+委	tv	tvf
+答	tw	twgk
+第	tx	txht
+入	ty	tyi
+并	ua	uaj
+闻	ub	ubd
+冯	uc	ucg
+关	ud	udu
+前	ue	uejj
+半	uf	ufk
+闰	ug	ugd
+站	uh	uhkg
+冰	ui	uiy
+间	uj	ujd
+部	uk	ukbh
+曾	ul	uljf
+商	um	umwk
+决	un	unwy
+普	uo	uogj
+帝	up	upmh
+交	uq	uqu
+瓣	ur	urcu
+亲	us	usu
+产	ut	ute
+立	uu	uuuu
+妆	uv	uvg
+闪	uw	uwi
+北	ux	uxn
+六	uy	uygy
+毁	va	vamc
+好	vb	vbg
+妈	vc	vcg
+姑	vd	vdg
+奶	ve	ven
+寻	vf	vfu
+姨	vg	vgxw
+叟	vh	vhcu
+录	vi	viu
+旭	vj	vjd
+如	vk	vkg
+舅	vl	vllb
+妯	vm	vmg
+刀	vn	vnt
+灵	vo	vou
+巡	vp	vpv
+婚	vq	vqaj
+姝	vr	vriy
+杂	vs	vsu
+九	vt	vtn
+嫌	vu	vuvo
+妇	vv	vvg
+臾	vw	vwi
+姆	vx	vxgu
+妨	vy	vyn
+代	wa	way
+他	wb	wbn
+公	wc	wcu
+估	wd	wdg
+仍	we	wen
+会	wf	wfcu
+全	wg	wgf
+个	wh	whj
+偿	wi	wipc
+介	wj	wjj
+保	wk	wksy
+佃	wl	wlg
+仙	wm	wmh
+亿	wn	wnn
+伙	wo	woy
+侬	wp	wpey
+你	wq	wqiy
+伯	wr	wrg
+休	ws	wsy
+作	wt	wthf
+们	wu	wun
+分	wv	wvb
+从	ww	wwy
+化	wx	wxn
+信	wy	wyg
+红	xa	xag
+弛	xb	xbn
+经	xc	xcag
+顷	xd	xdmy
+级	xe	xeyy
+结	xf	xfkg
+线	xg	xgt
+引	xh	xhh
+纱	xi	xitt
+旨	xj	xjf
+强	xk	xkjy
+细	xl	xlg
+纲	xm	xmqy
+纪	xn	xnn
+继	xo	xonn
+综	xp	xpfi
+约	xq	xqyy
+绵	xr	xrmh
+缥	xs	xsfi
+张	xt	xtay
+弱	xu	xuxu
+绿	xv	xviy
+给	xw	xwgk
+比	xx	xxn
+纺	xy	xyn
+度	ya	yaci
+离	yb	ybmc
+充	yc	ycqb
+庆	yd	ydi
+衣	ye	yeu
+计	yf	yfh
+主	yg	ygd
+让	yh	yhg
+就	yi	yidn
+刘	yj	yjh
+训	yk	ykh
+为	yl	ylyi
+高	ym	ymkf
+记	yn	ynn
+变	yo	yocu
+这	yp	ypi
+义	yq	yqi
+诉	yr	yryy
+订	ys	ysh
+放	yt	yty
+说	yu	yukq
+良	yv	yvei
+认	yw	ywy
+率	yx	yxif
+方	yy	yygn
 工	aaa
 𦬀	aab
 匞	aad
