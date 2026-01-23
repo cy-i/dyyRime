@@ -61,9 +61,6 @@ patch:
   punctuator:  # 设置标点符号集
     import_preset: symbols
   
-  # 指定 wubi 字典
-  translator/dictionary: dyyWubi
-  
   # 设置以下 translator 相关的开关
   translator/enable_sentence: true				#是否整句连打
   translator/enable_user_dict: true				#开启用户词典，这将会记录用户词频并有自动调频效果

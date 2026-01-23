@@ -1,55 +1,35 @@
-# Rime dictionary: wubi86
-# encoding: utf-8
-#
-# Changelog
-# Gong Chen <chen.sst@gmail.com>
-#     - Convert to Rime dictionary format.
-# Yu Yuwei <acevery@gmail.com>
-#     - Use original level 1 and 2 JianMa.
-# Yu Yuwei <acevery@gmail.com>
-#     - Update to Jidian 6, provided by Chen Xing
-# Yu Yuwei <acevery@gmail.com>
-#     - Add freqs from google.
-#     - Fix punctuation freqs
-# Chen Xing <cxcxcxcx@gmail.com>
-#     - Convert from JidianWubi table
-#
-# Original table author
-# Wozy <wozy.in@gmail.com>
-
 ---
-name: wubi86_7w5
-version: "0.1"
+name: wubi86_7w5_base
+version: "0.2"
 columns:
   - text
   - code
-  - stem
 ...
-工	a	aa
-了	b	bn
-以	c	ny
-在	d	dh
-有	e	de
-地	f	fb
-一	g	gg
-上	h	hh
-不	i	gi
-是	j	jg
-中	k	kh
-国	l	lg
-同	m	mg
-民	n	na
-为	o	yl
-这	p	yp
-我	q	tr
-的	r	rq
-要	s	sv
-和	t	tk
-产	u	ut
-发	v	nt
-人	w	ww
-经	x	xc
-主	y	yg
+工	a
+了	b
+以	c
+在	d
+有	e
+地	f
+一	g
+上	h
+不	i
+是	j
+中	k
+国	l
+同	m
+民	n
+为	o
+这	p
+我	q
+的	r
+要	s
+和	t
+产	u
+发	v
+人	w
+经	x
+主	y
 式	aa
 节	ab
 芭	ac
@@ -173,7 +153,7 @@ columns:
 及	ey
 载	fa
 地	fb
-支	fc
+去	fc
 城	fd
 圾	fe
 寺	ff
@@ -1960,8 +1940,7 @@ columns:
 运	fcp
 魂	fcr
 埃	fct
-云	fcu
-去	fcu
+云	fci
 支	fcu
 𠭍	fcu
 𡏢	fcy
@@ -7772,7 +7751,6 @@ columns:
 𧀱	aaqn
 𨘬	aaqp
 𣂧	aarh
-AA制	aarm
 𦮇	aasu
 蘙	aatn
 荛	aatq
@@ -26896,7 +26874,6 @@ AA制	aarm
 𥌣	hrmi
 𥇕	hrmj
 𣂶	hrmr
-卡拉OK	hrok
 矈	hrpy
 𥇐	hrpy
 䁛	hrqc
@@ -51960,7 +51937,7 @@ AA制	aarm
 𤙲	rmhh
 緜	rmhi
 𢅞	rmhi
-制	rmhj
+制	rmhjh
 帛	rmhj
 䍄	rmhk
 𢄗	rmhk
@@ -58055,7 +58032,6 @@ AA制	aarm
 秷	tgcf
 箌	tgcj
 𠟅	tgcj
-T型台	tgck
 𥠽	tgct
 𩢫	tgcu
 𥑦	tgdf
@@ -60823,7 +60799,6 @@ T型台	tgck
 𢔃	ttmt
 𥶽	ttnh
 𥝖	ttnn
-T恤	ttnt
 秭	ttnt
 笫	ttnt
 𢚐	ttnu
@@ -64019,7 +63994,6 @@ T恤	ttnt
 痫	uusi
 𤺛	uusi
 𨵎	uusk
-U盘	uute
 𣯓	uutn
 𣯞	uutn
 𨷮	uuuf
@@ -75064,3 +75038,7 @@ U盘	uute
 𬭊	qsfg
 𬀪	jmqn
 𫔍	qtol
+𰻝	pwyp
+・	zzzz
+·	zzzz
+•	zzzz
