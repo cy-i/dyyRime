@@ -34,6 +34,7 @@ patch:
     - lua_translator@help
     - lua_translator@*simpleCalculator				# 简单计算器
     - lua_translator@latexLettersInWubi
+    - lua_translator@*input_statistics		# 统计输入速度等信息
     - lua_translator@force_gc          # 暴力 GC 降低内存
   engine/filters:									# 设置以下filter
     - simplifier
