@@ -29,6 +29,8 @@ patch:
       states: [Off, 中英对照]
     - name: markdown					# 一个markdown语法开关
       states: [Off, md]
+    - name: autoMix					# 一个开关，用于决定是否打开自动混淆功能
+      states: [Off, mix]
   engine/translators/+:				#定制translator如下
     - table_translator@custom_phrase				# 指定使用 custom_phrase 进行输入字符的翻译
     - lua_translator@help
