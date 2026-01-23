@@ -127,19 +127,25 @@ local function pinyinAdding(k)
 	valStr = ''
 	kLen = utf8Len(k)
 	matchPosition = 1
-	while matchPosition <= kLen do
-		subK,subKVal,subKLen = getItmInDicByStr(utf8Sub(k,matchPosition,kLen))
-		
-		if ''==subK then
-			valStr = valStr..utf8Sub(k,matchPosition,1)
-			matchPosition = matchPosition + 1
-		else
-			valStr =valStr..subKVal
-			matchPosition = matchPosition + subKLen
+	if kLen < 5 then
+		while matchPosition <= kLen do
+			subK,subKVal,subKLen = getItmInDicByStr(utf8Sub(k,matchPosition,kLen))
+			
+			if ''==subK then
+				valStr = valStr..utf8Sub(k,matchPosition,1)
+				matchPosition = matchPosition + 1
+			else
+				valStr =valStr..subKVal
+				matchPosition = matchPosition + subKLen
+			end
 		end
 	end
 	
-	return valStr
+	if '' == valStr then
+		return nil
+	else
+		return valStr
+	end
 end
 
 function M.init(...)
