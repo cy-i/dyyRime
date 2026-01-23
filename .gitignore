@@ -10,12 +10,14 @@ sync/
 user.yaml
 installation.yaml
 runLog.txt
+input_stats_*.lua
 wubi_pinyin.schema.yaml
 wubi_trad.schema.yaml
 wubi86.dict.yaml
 wubi86.schema.yaml
 pinyin_simp.dict.yaml
 pinyin_simp.schema.yaml
+
 
 # 解除对opencc文件夹的屏敝
 !opencc/
